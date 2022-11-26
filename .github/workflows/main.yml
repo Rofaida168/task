@@ -10,4 +10,4 @@ jobs:
       - name: 'Testing Githup action'  
         run: pwd
       - name: 'Testing printing' 
-        run: echo rashed
+        run: echo rofida
