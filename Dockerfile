@@ -1,9 +1,2 @@
-FROM openjdk
-
-WORKDIR /application 
-
-COPY a.java .
-
-RUN javac a.java
-
-CMD java a
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
