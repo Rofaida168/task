@@ -17,7 +17,7 @@ spec:
         app: m
     spec:
       containers:
-        - image: rashed978/project
+        - image: rofydakhaled168/project
           name: project-container
           resources:
             limits:
